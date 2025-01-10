@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mi RSS</title>
+    <link>https://3-d-portfolio-ruddy.vercel.app</link>
+    <description>Descripción de mi feed. He puesto este ejemplo porque no se me ocurre otra cosa</description>
+    
+    <item>
+      <title>Enlace a turismo albacete</title>
+      <link>https://www.turismoenalbacete.com/</link>
+      <description>Bienvenidos a Albacete, tu próxima aventura</description>
+    </item>
+    
+    <item>
+      <title>Luis Rodrigo Martínez Tabernero - Mi página personal</title>
+      <link>https://3-d-portfolio-ruddy.vercel.app</link>
+      <description>Backend engineer and web dev. Este es mi portafolio real</description>
+    </item>
+  </channel>
+</rss>

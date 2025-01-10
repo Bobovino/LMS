@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="cabecera">        
+        <nav>
+                <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="personal.html">Datos Personales</a></li>
+                        <li><a href="datos.html">Formulario</a></li>
+                </ul>
+        </nav> 
+</div>
+    <div id="izquierda">
+        <h1>Formulario</h1>
+        <form action="procesamiento.php" method="get">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label>Género:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label><br><br>
+            <label>Aficiones:</label>
+            <input type="checkbox" id="lectura" name="aficiones" value="lectura">
+            <label for="lectura">Lectura</label>
+            <input type="checkbox" id="senderismo" name="aficiones" value="senderismo">
+            <label for="senderismo">Senderismo</label><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div id="derecha">
+      <img id="imagen-formulario" src="imagenes/dibujo_formulario.jpg" alt="Formulario">
+    </div>
+        <div id="pie">
+               &copy; 2024 Luis Rodrigo Martínez Tabernero. Todos los derechos reservados
+        </div>
+</body>
+</html>
